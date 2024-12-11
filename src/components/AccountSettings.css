@@ -1,0 +1,95 @@
+.account-settings-container {
+    font-family: Arial, sans-serif;
+    background-color: #f3f7f6;
+    padding: 20px;
+    min-height: 100vh;
+  }
+  
+  .banner {
+    background-color: #2d6a4f;
+    color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 30px;
+  }
+  
+  .title {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .description {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .section-header {
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    transition: background 0.3s, transform 0.3s;
+  }
+  
+  .section-header.active {
+    background-color: #e9f5f2;
+    transform: scale(1.02);
+  }
+  
+  .section-content {
+    padding: 15px 20px;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 0 0 6px 6px;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .input {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  .button {
+    padding: 10px 15px;
+    background-color: #2d6a4f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #3c8b5f;
+  }
+  
+  .checkbox-label {
+    font-size: 16px;
+    color: #333;
+  }
+  
